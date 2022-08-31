@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
+    max-height: 20%;
+    background: linear-gradient(#e66465, #9198e5);
 }
 
 header h1{
@@ -23,8 +25,12 @@ a{
 main{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1280px;
+    max-width: 2560px;
     margin: auto;
+    background-image: url(images/tom-barrett-zbai2Y1GBIw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
@@ -32,21 +38,19 @@ main{
 
 
 
-
-
-
-.my{
-    flex-direction: column;
-    background-color: skyblue;
-    min-width: 12%;
-    max-width: 12%;
-    padding: 50px;
-    text-align: center;
-    justify-content: flex-start;
-    margin-left: 100px;
+ 
+#background_sand{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
 }
 
 
+#mePicture{
+    margin: auto;
+    max-width: 35%;
+    padding-bottom: 3%;
+}
 
 /* RIGHT SIDE CONTENTS STYLES */
 
@@ -60,7 +64,7 @@ main{
 
 .aboutMe{
     /* flex-direction: column; */
-    background-color: skyblue;
+    background-color: slategray;
     height: 12%;
     min-width: 12%;
     max-width: 12%;
@@ -85,13 +89,11 @@ main{
 }
 
 
-#mePicture{
-    margin: auto;
-    max-width: 35%;
-}
 
 
-/*  SECTIONS */
+/*  PROJECT PROJECT PROJECT  */
+/*  PROJECT PROJECT PROJECT  */
+/*  PROJECT PROJECT PROJECT  */
 
 
 .projects{
@@ -115,8 +117,6 @@ main{
     align-items: center;
 }
 
-/* Project Boxes */
-
 .projects section h3{
     background-color: rgba(255, 255, 255, .5);
     padding: 10px;
@@ -131,6 +131,7 @@ main{
     background-size: cover;
     background-position: center;
     min-height: 200px;
+    max-height: 200px;
 }
 
 #SM{
@@ -138,6 +139,8 @@ main{
     background-size: cover;
     background-position: center;
     min-height: 15%;
+    max-height: 200px;
+
 }
 
 
@@ -146,6 +149,8 @@ main{
     background-size: cover;
     background-position: center;
     min-height: 15%;
+    max-height: 200px;
+
 }
 
 
@@ -154,6 +159,8 @@ main{
     background-size: cover;
     background-position: center;
     min-height: 15%;
+    max-height: 200px;
+
 }
 
 
@@ -194,4 +201,13 @@ main{
     /* padding-right: 10%; */
 }
 
-
+.my{
+    flex-direction: column;
+    background-color: bisque;
+    min-width: 12%;
+    max-width: 12%;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
