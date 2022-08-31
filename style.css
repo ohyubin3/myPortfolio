@@ -1,9 +1,37 @@
-header{
+header nav{
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;   
 }
+
+a{
+    padding: 35px;
+}
+
 
 main{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+main h2{
+    background-color: aquamarine;
+    height: 600px;
+    padding: 50px;
+    text-align: center;
+}
+
+main section{
+    display: flex;
+    height: 600px;
+    align-content: center;
+}
+
+.projects{
+    flex-direction: column;
+    height: 740px;
+    width: 1100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: beige;
 }
