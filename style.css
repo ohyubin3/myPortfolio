@@ -1,10 +1,21 @@
+.topline{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+header h1{
+    display: flex;
+    justify-content: flex-start;
+}
+
 header nav{
     display: flex;
     justify-content: flex-end;   
 }
 
 a{
-    padding: 35px;
+    padding: 20px;
 }
 
 
@@ -24,7 +35,7 @@ main h2{
 main section{
     display: flexbox;
     height: 175px;
-    justify-content: right;
+
 }
 
 .projects section{
