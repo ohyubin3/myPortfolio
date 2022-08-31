@@ -27,6 +27,7 @@ main{
 }
 
 .aboutMe{
+    flex-direction: column;
     background-color: skyblue;
     height: 200px;
     padding: 50px;
