@@ -50,9 +50,21 @@ main{
     margin-left: 100px;
 }
 
+.my{
+    flex-direction: column;
+    background-color: skyblue;
+    height: 75px;
+    width: 150px;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-start;
+    margin-left: 100px;
+}
+
 
 
 /* RIGHT SIDE CONTENTS STYLES */
+
 /* Headers */
 
 .thisisMe{
@@ -63,6 +75,12 @@ main{
 .awesome-projects{
     display: flex;
 }
+
+.myContacts{
+    display: flex;
+}
+
+
 
 /*  SECTIONS */
 .iAm p{
@@ -84,4 +102,18 @@ main{
     border: 5px solid black;
     margin-bottom: 25px;
     margin-left: 150px;
+}
+
+
+/* Contact ME */
+
+.myContacts{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
 }
