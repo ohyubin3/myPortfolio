@@ -20,19 +20,23 @@ a{
 
 
 /* THIS IS MAIN PORTION */
-
 main{
     display: flex;
     flex-wrap: wrap;
 }
 
+
+/* LEFT SIDE HEADERS */
+
 .aboutMe{
     flex-direction: column;
     background-color: skyblue;
     height: 200px;
+    width: 150px;
     padding: 50px;
     text-align: center;
     justify-content: flex-start;
+    margin-left: 100px;
 }
 
 
@@ -40,16 +44,38 @@ main{
     background-color: aquamarine;
     height: 600px;
     padding: 50px;
+    width: 150px;
     text-align: center;
     justify-content: right;
+    margin-left: 100px;
 }
 
-main section{
-    display: flexbox;
-    height: 120px;
+
+
+/* RIGHT SIDE CONTENTS STYLES */
+/* Headers */
+
+.thisisMe{
+    display: flex;
 }
+
+
+.awesome-projects{
+    display: flex;
+}
+
+/*  SECTIONS */
+.iAm p{
+    display: flexbox;
+    height: 200px;
+    width: 850px;
+    margin-left: 150px;
+}
+
 
 .projects section{
+    display: flexbox;
+    height: 120px;
     width: 750px;
     padding-left: 70px;
     padding-right: 70px;
@@ -57,4 +83,5 @@ main section{
     text-align: center;
     border: 5px solid black;
     margin-bottom: 25px;
+    margin-left: 150px;
 }
