@@ -87,7 +87,7 @@ main{
 
 #mePicture{
     margin: auto;
-    max-width: 50%;
+    max-width: 35%;
 }
 
 
@@ -100,7 +100,7 @@ main{
 }
 
 .projects section{
-    min-height: 120px;
+    min-height: 150px;
     min-width: 65%;
     padding-left: 5%;
     padding-right: 5%;
@@ -115,18 +115,48 @@ main{
     align-items: center;
 }
 
+/* Project Boxes */
+
 .projects section h3{
     background-color: rgba(255, 255, 255, .5);
     padding: 10px;
-    font-weight: 1900px;
+    padding-left:   65px;
+    padding-right:  65px;
+    font-size: 25px;
 }
 
-#Horiseon{
+
+#LOL{
     background-image: url("./images/Application\ image.jpg");
     background-size: cover;
     background-position: center;
-    min-height: 350px;
+    min-height: 200px;
 }
+
+#SM{
+    background-image: url("./images/Application\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 15%;
+}
+
+
+#PG{
+    background-image: url("./images/Application\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 15%;
+}
+
+
+#BW{
+    background-image: url("./images/Application\ image.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 15%;
+}
+
+
 
 
 .awesome-projects{
@@ -136,7 +166,7 @@ main{
 
 .myProject{
     background-color: aquamarine;
-    height: 600px;
+    height: auto;
     padding: 50px;
     min-width: 12%;
     max-width: 12%;
