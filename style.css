@@ -19,12 +19,23 @@ a{
 }
 
 
+/* THIS IS MAIN PORTION */
+
 main{
     display: flex;
     flex-wrap: wrap;
 }
 
-main h2{
+.aboutMe{
+    background-color: skyblue;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+
+.myProject{
     background-color: aquamarine;
     height: 600px;
     padding: 50px;
@@ -34,17 +45,15 @@ main h2{
 
 main section{
     display: flexbox;
-    height: 175px;
-
+    height: 120px;
 }
 
 .projects section{
-    flex-direction: column;
-    height: 50x;
-    width: 50px;
+    width: 750px;
     padding-left: 70px;
     padding-right: 70px;
     background-color: beige;
     text-align: center;
     border: 5px solid black;
+    margin-bottom: 25px;
 }
