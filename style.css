@@ -31,7 +31,7 @@ header a{
 main{
     display: flex;
     flex-wrap: wrap;
-    max-width: 2560px;
+    width: 100vw;
     margin: auto;
     background-image: url(images/tom-barrett-zbai2Y1GBIw-unsplash.jpg);
     background-position: center;
@@ -194,13 +194,15 @@ h2{
 
 .myContacts{
     display: flex;
-    /* justify-content: space-between; */
     align-items:center;
 }
 
 .contacts{
-    /* display: flex; */
+    display: flex;
     margin: 0 auto;
+    /* flex: 1 */
+    justify-content: center;
+
 }
 
 .contacts a {
@@ -226,3 +228,14 @@ h2{
 
 }
 
+@media screen and (max-width:700px){.contacts {
+
+    flex-direction: column ;
+}
+}
+
+@media screen and (max-width:1200px)and (min-width:700px){.contacts {
+
+    flex-direction: column ;
+}
+}
