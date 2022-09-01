@@ -9,6 +9,8 @@
 header h1{
     display: flex;
     justify-content: flex-start;
+    font-family: fantasy;
+    
 }
 
 header nav{
@@ -16,8 +18,12 @@ header nav{
     justify-content: flex-end;   
 }
 
-a{
-    padding: 20px;
+header a{
+    padding: auto;
+    padding-left:   55px;
+    padding-right:  55px;
+    font-family: fantasy;
+    font-size: 25px;
 }
 
 
@@ -29,7 +35,7 @@ main{
     margin: auto;
     background-image: url(images/tom-barrett-zbai2Y1GBIw-unsplash.jpg);
     background-position: center;
-    background-size: cover;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
@@ -37,13 +43,6 @@ main{
 /* LEFT SIDE HEADERS */
 
 
-
- 
-#background_sand{
-    max-width: 100%;
-    max-height: 100%;
-    position: relative;
-}
 
 
 #mePicture{
@@ -55,6 +54,10 @@ main{
 /* RIGHT SIDE CONTENTS STYLES */
 
 /* Headers */
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 .thisisMe{
     display: flex;
@@ -86,6 +89,10 @@ main{
     margin-left: 13%;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: rgba(255, 255, 255, .5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
 }
 
 
@@ -123,6 +130,7 @@ main{
     padding-left:   65px;
     padding-right:  65px;
     font-size: 25px;
+    font-family: fantasy;
 }
 
 
@@ -192,13 +200,18 @@ main{
 
 .contacts{
     /* display: flex; */
-    justify-content: space-around;
     margin: 0 auto;
 }
 
 .contacts a {
-    /* padding-left: 5%; */
-    /* padding-right: 10%; */
+    min-width: 30%;
+    max-width: 30%;
+    border: 5px solid black;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, .5);
+    margin: 20px;
+    padding-right: 20px;
+    padding-left:  20px;   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .my{
@@ -210,4 +223,6 @@ main{
     text-align: center;
     justify-content: flex-start;
     margin-left: 100px;
+
 }
+
